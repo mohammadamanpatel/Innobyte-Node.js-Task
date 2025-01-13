@@ -1,3 +1,4 @@
+//Attractive Email body Html   
 export const emailConfirmationTemplate = (confirmationCode, hostemail) => {
     return `
       <!DOCTYPE html>
