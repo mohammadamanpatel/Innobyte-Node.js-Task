@@ -134,7 +134,6 @@ Ensure you have the following installed:
 1. Clone the repository:
    ```bash
    git clone https://github.com/mohammadamanpatel/Innobyte-Node.js-Task
-   cd Innobyte-Node.js-Task
    ```
 
 2. Install backend dependencies:
