@@ -96,6 +96,6 @@ For a detailed description of the API, including request and response formats, r
 
 ## **🎥 Video Demonstration**
 Watch the **video demonstration** of this project in action here:  
-[🎬 Video File (Google Drive)](https://www.postman.com/joint-operations-cosmologist-64352344/workspace/innobyte-node-js-task-apis/collection/30730048-25f93c71-fbb4-49e0-9ec8-c2ca5b52dc79?action=share&creator=30730048)
+[🎬 Video File (Google Drive)](https://drive.google.com/file/d/17daprD1V9HeK08ErmNRXtWxqJ2FqJmQq/view?usp=sharing)
 
 ---
