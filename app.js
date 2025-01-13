@@ -4,7 +4,7 @@ import express from "express"; // Express framework for building APIs
 // For loading environment variables
 import { config } from "dotenv"; 
 
-// Initialize dotenv to access variables from .env file
+// Initializing dotenv to access variables from .env file
 config(); 
 import cookieParser from "cookie-parser"; // Middleware to parse cookies
 
@@ -12,7 +12,7 @@ import cookieParser from "cookie-parser"; // Middleware to parse cookies
 import DBConnection from "./config/DB.Connect.js"; // Function to connect to MongoDB
 import UserRoutes from "./routes/user.routes.js"; // User-related API routes
 
-// Initialize the Express app
+// Initializing the Express app
 const app = express();
 
 // Middleware to parse JSON payloads
