@@ -73,7 +73,7 @@ export const confirmEmail = async (req, res) => {
         .json({ message: "Please provide email and confirmation code." });
     }
 
-    // Finding the user by email wheather existes or not
+    // Finding the user by email wheather existes or not in the database
     const user = await User.findOne({ email });
     if (!user) {
       return res.status(404).json({ message: "User not found." });
@@ -117,7 +117,7 @@ export const login_user = async (req, res) => {
       });
     }
 
-    //checking the user if existes or not
+    //checking the user if existes or not in the database
     const user = await User.findOne({ email: email });
     if (!user) {
       res.status(400).json({
@@ -162,23 +162,33 @@ export const login_user = async (req, res) => {
 };
 export const Profile = async (req, res) => {
   try {
+    //extracting id from req.user which comes because of Jwt Token
     const id = req.user.id;
+
+    //Checking wheather user id is present or not
     if (!id) {
       res.status(400).json({
         message: "user id not found",
       });
     }
+    
+    //finding the user in the database
     const user = await User.findById(id);
+
+    //checking wheather user exists or not
     if (!user) {
       res.status(400).json({
         message: "user dont exists",
       });
     }
+
+    //returning the response if user exists
     return res.status(200).json({
       message: "user profile found",
       user,
     });
   } catch (error) {
+    //sending error and message in response if any internal server error comes
     return res.status(500).json({
       message: "internal server error",
       error: error.message,
