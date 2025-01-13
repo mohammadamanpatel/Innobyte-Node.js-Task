@@ -1,6 +1,5 @@
 ---
-#Innobyte Task
-
+##**Innobyte Task**
 This is a Node.js, Express.js, and MongoDB-based User Authentication System, with user signup, email confirmation, JWT-based authentication, and profile management. It also features secure token handling, dynamic email templates, and clean modular structure that make the application very maintainable and friendly to use.
 ---
 
