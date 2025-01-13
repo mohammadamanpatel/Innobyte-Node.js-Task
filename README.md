@@ -120,7 +120,6 @@ For a detailed description of the API, including request and response formats, r
 Watch the **video demonstration** of this project in action here:  
 [🎬 Video File (Google Drive)](https://drive.google.com/file/d/17daprD1V9HeK08ErmNRXtWxqJ2FqJmQq/view?usp=sharing)
 
----
 
 ## **🧑‍💻 Installation**
 
