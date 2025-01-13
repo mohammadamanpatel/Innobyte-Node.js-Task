@@ -11,7 +11,7 @@ This is a Node.js, Express.js, and MongoDB-based User Authentication System, wit
 4. [API Endpoints](#-api-endpoints)  
 5. [API Documentation](#-api-documentation)  
 6. [Video Demonstration](#-video-demonstration)  
-
+7. [Installation](#-installation)
 ---
 
 ## **🚀 Features**
