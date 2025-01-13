@@ -81,10 +81,10 @@ Here are the key API endpoints available in this project:
 
 | Method | Endpoint            | Description                  |
 |--------|---------------------|------------------------------|
-| POST   | `/signup`           | User registration            |
-| POST   | `/login`            | User login                   |
-| POST   | `/confirm-email`    | Email confirmation           |
-| GET    | `/profile`          | Get logged-in user profile   |
+| POST   | `/api/signup`           | User registration            |
+| POST   | `/api/login`            | User login                   |
+| POST   | `/api/confirm-email`    | Email confirmation           |
+| GET    | `/api/profile`          | Get logged-in user profile   |
 
 ---
 
