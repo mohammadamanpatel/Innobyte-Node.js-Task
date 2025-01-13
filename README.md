@@ -75,6 +75,29 @@ package.json                  # Project dependencies and scripts
 
 ---
 
+
+## Environment Variables
+
+To configure the application, create a `.env` file in the `backend` directory with the following keys:
+
+```env
+
+PORT=                    # Backend server port
+MONGO_URL=               # MongoDB connection URI
+
+
+JWT_SECRET=              # JWT Secret
+JWT_EXPIRY=              # JWT Expiry
+COOKIE_EXPIRY=           # Cookie Expiry
+
+
+MAIL_HOST=               # Mail host 
+MAIL_USER=               # Mail User
+MAIL_PASS=               # Mail Pass
+
+```
+
+---
 ## **🌐 API Endpoints**
 
 Here are the key API endpoints available in this project:
@@ -92,10 +115,36 @@ Here are the key API endpoints available in this project:
 For a detailed description of the API, including request and response formats, refer to the full **API Documentation** here:  
 [📄 API Documentation (Postman)](https://www.postman.com/joint-operations-cosmologist-64352344/workspace/innobyte-node-js-task-apis/collection/30730048-25f93c71-fbb4-49e0-9ec8-c2ca5b52dc79?action=share&creator=30730048)
 
----
 
 ## **🎥 Video Demonstration**
 Watch the **video demonstration** of this project in action here:  
 [🎬 Video File (Google Drive)](https://drive.google.com/file/d/17daprD1V9HeK08ErmNRXtWxqJ2FqJmQq/view?usp=sharing)
 
 ---
+
+## Installation
+
+### Prerequisites
+Ensure you have the following installed:
+- **Node.js**
+- **MongoDB**
+- **Git**
+
+### Steps
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/mohammadamanpatel/Innobyte-Node.js-Task
+   cd Innobyte-Node.js-Task
+   ```
+
+2. Install backend dependencies:
+   ```bash
+   npm install
+   ```
+
+3. Configure the `.env` file in the `backend` directory with the necessary credentials.
+
+4. Start MongoDB and run the backend:
+   ```bash
+   npm run start
+   ```
