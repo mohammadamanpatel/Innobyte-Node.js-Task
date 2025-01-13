@@ -109,7 +109,6 @@ Here are the key API endpoints available in this project:
 | POST   | `/api/confirm-email`    | Email confirmation           |
 | GET    | `/api/profile`          | Get logged-in user profile   |
 
----
 
 ## **📘 API Documentation**
 For a detailed description of the API, including request and response formats, refer to the full **API Documentation** here:  
@@ -120,6 +119,7 @@ For a detailed description of the API, including request and response formats, r
 Watch the **video demonstration** of this project in action here:  
 [🎬 Video File (Google Drive)](https://drive.google.com/file/d/17daprD1V9HeK08ErmNRXtWxqJ2FqJmQq/view?usp=sharing)
 
+---
 
 ## **🧑‍💻 Installation**
 
