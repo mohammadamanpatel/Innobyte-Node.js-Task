@@ -122,7 +122,7 @@ Watch the **video demonstration** of this project in action here:
 
 ---
 
-## Installation
+## **🧑‍💻 Installation**
 
 ### Prerequisites
 Ensure you have the following installed:
